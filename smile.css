@@ -1,0 +1,51 @@
+body{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 12%, rgba(107,88,218,1) 41%, rgba(252,70,107,1) 68%, rgba(144,83,189,1) 99%);
+}
+
+#face {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border: 1px solid rgb(138, 104, 32);
+    border-radius: 100px;
+    background-color: #fcba03;
+}
+
+#mouth {
+    position: absolute;
+    background-color: rgb(138, 104, 32);
+    height: 50px;
+    width: 90px;
+    border: 1px solid rgb(138, 104, 32);
+    border-radius: 7px 7px 100px 100px;
+    top: 130px;
+    left: 65px;
+}
+
+#l_eye, #r_eye {
+    position: absolute;
+    border: rgb(138, 104, 32);
+    background-color: rgb(92, 72, 28);
+    width: 52px;
+    height: 60px;
+    border-radius: 80px;
+    top: 40px;
+    left: 40px;
+}
+
+#r_eye {
+    left: 120px;
+}
+
+#l_eye::before, #r_eye::before {
+    content: "";
+    display: block;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    position: absolute;
+    top: 15px;
+    left: 10px
+}

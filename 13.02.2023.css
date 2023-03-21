@@ -1,0 +1,55 @@
+body {
+    background-color: #FBE0C3;
+    display: flex;
+    /*vertical content*/
+    align-items: center;
+    /*gorizontal content*/
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.cardbody {
+    position: absolute;
+    width: 800px;
+    height: 400px;
+}
+
+img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.banklogo {
+    position: absolute;
+    font-size: 60px;
+    margin-left: 5%;
+    font-weight: bold;
+    text-decoration: none;
+    color: #e5ebee;
+    font-family: MarkForMC;
+}
+
+.cardnumber {
+    position: absolute;
+    left: 5%;
+    top: 65%;
+    font-size: 50px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.cardholder {
+    position: absolute;
+    left: 5%;
+    top: 80%;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.banklogo:hover{
+    color: cornflowerblue;
+    cursor: grab;
+}
